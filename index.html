@@ -329,51 +329,77 @@
         </div>
     </div><!-- End Container -->
 
-   <div class="container"> <div id="itemsWork" class="row text-center"> <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 brand" style="padding: 15px;"> 
+ <!-- Works Section
+================================================== -->
+<section id="works" style="padding: 60px 0;">
+    <div class="container">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <h5><em>Lab work & open projects</em></h5>
+            <div class="fancy"><span></span></div>
+        </div>
+
+        <div class="text-center" style="margin-bottom: 40px;">
+            <ul class="list-inline cat"> <!-- Portfolio Filter Categories -->
+                <li><a href="#" data-filter="*" class="active">All</a></li>
+                <li><a href="#" data-filter=".brand">Identity & Directory</a></li>
+                <li><a href="#" data-filter=".web">Cloud Tenants</a></li>
+            </ul><!-- End Portfolio Filter Categories -->
+        </div>
+    </div><!-- End Container -->
+
+    <div class="container"> <!-- Changed to standard container for neat side breathing room -->
+         <div id="itemsWork" class="row text-center"> <!-- Portfolio Wrapper Row -->
+
+            <!-- Works #1: Active Directory Hybrid Lab -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 brand" style="padding: 15px;"> 
                 <div class="box" style="border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);"> 
-                    <a href="https://github.com/elvisodihiri/Active-directory-Hybrid-Lab" target="_blank" style="text-decoration: none; display: block;">
-                        <div class="hover-bg">
-                            <div class="hover-text off" style="opacity: 1; background: rgba(51, 122, 183, 0.9);">
-                                <i class="fa fa-github" style="font-size: 32px; color: #fff; margin-top: 20px;"></i>
-                                <h4 style="color: #fff; margin-top: 10px; font-weight: 600;">Active Directory Hybrid Lab</h4>
-                                <p style="color: #eee; font-size: 13px;">Click to open repository on GitHub</p>
-                            </div> 
-                            <img src="img/portfolio/01.png" class="img-responsive" alt="Active Directory Hybrid Lab" style="width: 100%; height: auto; display: block;"> 
-                        </div>
-                    </a>
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Active Directory Hybrid Lab" href="img/portfolio/01.png" data-lightbox-gallery="gallery1">
+                                <i class="fa fa-expand"></i>
+                            </a>
+                            <a href="https://github.com/elvisodihiri/Active-directory-Hybrid-Lab" target="_blank"><i class="fa fa-chain"></i></a>
+                        </div> 
+                        <img src="img/portfolio/01.png" class="img-responsive" alt="Active Directory Hybrid Lab" style="width: 100%; height: auto; display: block;"> 
                     </div>
-            </div><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 web" style="padding: 15px;"> 
+                </div>
+            </div><!-- end Works #1 -->
+
+            <!-- Works #2: Enterprise Identity & Access Management Lab -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 web" style="padding: 15px;"> 
                 <div class="box" style="border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                    <a href="https://github.com/elvisodihiri/Enterprise-Identity-Access-Management-Lab" target="_blank" style="text-decoration: none; display: block;">
-                        <div class="hover-bg">
-                            <div class="hover-text off" style="opacity: 1; background: rgba(51, 122, 183, 0.9);">
-                                <i class="fa fa-github" style="font-size: 32px; color: #fff; margin-top: 20px;"></i>
-                                <h4 style="color: #fff; margin-top: 10px; font-weight: 600;">Identity & Access Management</h4>
-                                <p style="color: #eee; font-size: 13px;">Click to open repository on GitHub</p>
-                            </div>
-                            <img src="img/portfolio/02.png" class="img-responsive" alt="Enterprise Identity Access Management Lab" style="width: 100%; height: auto; display: block;"> 
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Enterprise Identity & Access Management Lab" href="img/portfolio/02.png" data-lightbox-gallery="gallery1">
+                                <i class="fa fa-expand"></i>
+                            </a>
+                            <a href="https://github.com/elvisodihiri/Enterprise-Identity-Access-Management-Lab" target="_blank"><i class="fa fa-chain"></i></a>
                         </div>
-                    </a>
+                        <img src="img/portfolio/02.png" class="img-responsive" alt="Enterprise Identity Access Management Lab" style="width: 100%; height: auto; display: block;"> 
                     </div>
-            </div><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 brand" style="padding: 15px;">
+                </div>
+            </div><!-- end Works #2 -->
+
+            <!-- Works #3: Enterprise Active Directory Recovery Resilience Lab -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 brand" style="padding: 15px;">
                 <div class="box" style="border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                    <a href="https://github.com/elvisodihiri/Enterprise-Active-Directory-Recovery-Resilience-Engineering-Lab" target="_blank" style="text-decoration: none; display: block;">
-                        <div class="hover-bg">
-                            <div class="hover-text off" style="opacity: 1; background: rgba(51, 122, 183, 0.9);">
-                                <i class="fa fa-github" style="font-size: 32px; color: #fff; margin-top: 20px;"></i>
-                                <h4 style="color: #fff; margin-top: 10px; font-weight: 600;">Recovery & Resilience Lab</h4>
-                                <p style="color: #eee; font-size: 13px;">Click to open repository on GitHub</p>
-                            </div>
-                            <img src="img/portfolio/03.png" class="img-responsive" alt="Enterprise Active Directory Recovery Resilience Lab" style="width: 100%; height: auto; display: block;"> 
+                    <div class="hover-bg">
+                        <div class="hover-text off">
+                            <a title="Enterprise Active Directory Recovery Resilience Lab" href="img/portfolio/03.png" data-lightbox-gallery="gallery1">
+                                <i class="fa fa-expand"></i>
+                            </a>
+                            <a href="https://github.com/elvisodihiri/Enterprise-Active-Directory-Recovery-Resilience-Engineering-Lab" target="_blank"><i class="fa fa-chain"></i></a>
                         </div>
-                    </a>
+                        <img src="img/portfolio/03.png" class="img-responsive" alt="Enterprise Active Directory Recovery Resilience Lab" style="width: 100%; height: auto; display: block;"> 
                     </div>
-            </div></div> </div>
+                </div>
             </div><!-- end Works #3 -->
                 
          </div> <!-- End Row --> 
     </div>
 </section>
+
 
     <!-- experience Section
     ================================================== -->
